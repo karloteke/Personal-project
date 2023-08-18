@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+}
+
+main{
+    padding: 50px 140px;
+}
+
+h1{
+    text-align:center;
+    font: 400 3rem "Roboto", sans-serif;
+    font-weight: 300;
+    color:pink;
+}
+
+.name-color{
+    color:blueviolet;
+}
+
+.nav-content{
+    font: 300 1rem "Roboto Slab", serif;
+    color:white;
+    background-color: blueviolet; 
+}
+
+ul{
+    display: flex;
+    list-style: none; 
+    justify-content: center;
+}
+
+li{
+    margin-right: 30px;
+    padding: 15px 7px;
+}
+
+.active{
+    background-color:pink;
+}
+
+.fa-solid {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.title-content{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    padding-bottom: 15px;
+}
+.title-design{
+    font-size: 35px;
+}
+.underline{
+    color: gray;
+    padding-bottom: 1px;
+    background-color: lightgray;
+    width: 100%;
+}
+.social-icons{
+    display: flex; 
+    position: absolute;
+    padding-top: 15px;
+    bottom: 373px;
+    right: 142px;
+    gap: 10px;
+    }
+
+
+.social-icons i{
+    font-size: 20px;
+}
+
+.social-icons2{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.article {
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+}
+
+.article img {
+    max-width: 200px;
+    margin-right: 65px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-date {
+    margin-top: 10px;
+    background-color:#c17eff;
+    padding: 7.5px 15px;
+    border-radius: 3px;
+    font-weight: 300;
+    width: 68px;
+    color: white;
+  }
+
+
+.article-content h2 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.article-content p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    color: black;  
+    padding: 20px 20px;
+    font-size: 20px;
+    
+}
+
+.footer-design{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+.footer-design span{
+    margin-right: 10px;
+}
+
